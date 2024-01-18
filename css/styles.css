@@ -1,8 +1,13 @@
+* {
+    font-family: 'rubik', sans-serif;
+    background-color: #F5EBEB;
+}
 .info{
     width: 100%;
 }
 tr, td {
-    border: solid 1px
+    border: solid 1px;
+    border-radius: 7px;
 }
 .foto {
     width: 150px;
