@@ -1,0 +1,18 @@
+.info{
+    width: 100%;
+}
+tr, td {
+    border: solid 1px
+}
+.foto {
+    width: 150px;
+}
+img {
+    width: 70px;
+}
+.estrella{
+    width: 50px;
+}
+.dosPuntos {
+    width: 10px;
+}
