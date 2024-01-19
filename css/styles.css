@@ -5,6 +5,7 @@ body {
     background-color: #D5B4B4;
 }
 header {
+    width: 100%;
     margin: auto;
     margin-bottom: 2%;
 }
@@ -23,57 +24,70 @@ header {
 p {
     font-size: 18px;
 }
+dl {
+    font-size: 18px;
+}
 .info{
     width: 77%;
     margin: auto;
 }
 td {
-    border: solid 1px;
+    border: solid 1px #867070;
     border-radius: 7px;
     background-color: #E4D0D0;
 }
+tr {
+    width: 30%;
+}
 .box {
+    width: 30%;
     padding-left: 12px;
-    padding-left: 12px;
+    padding-right: 12px;
     padding-top: 10px;
 }
+#infoBox {
+    width: 490px;
+}
 #academicaBox {
-    margin-bottom: 40%;
+    margin-bottom: 70%;
 }
 #proyectosBox {
-    margin-bottom: 75%;
+    margin-bottom: 90%;
 }
 #contactosBox {
-    margin-bottom: 50%;
+    margin-bottom: 90%;
 }
 #imagesBox {
     margin: 5px 0 0 10px;
+}
+#fotoBox {
+    margin-left: auto;
 }
 .links{
     color: black;
     text-decoration: underline #E4D0D0;
 }
 .foto {
-    width: 150px;
+    width: 35%;
     border-radius: 100%;
-}
-#fotoBox {
-    background-color: #E4D0D0;
+    margin-left: 160.05px;
 }
 .lenguajes {
-    width: 40px;
+    width: 50px;
 }
 .bloqueLenguajes {
     margin-bottom: 15px;
 }
 #ingles {
-    width: 191px;
+    width: 221px;
 }
 .estrella{
-    width: 30px;
-    margin-bottom: 4px;
+    width: 35px;
+    margin-bottom: 7px;
 }
 .dosPuntos {
     width: 10px;
-    margin-bottom: 4px;
+    margin-bottom: 5px;
 }
+
+/* COMPLETADO */
