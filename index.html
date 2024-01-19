@@ -10,75 +10,120 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hoja de Vida</h1>
-    <h2>Samuel Rubiano Orjuela</h2>
     <table class="info">
+        <td colspan="3">
+            <div class="box">
+                <header>
+                    <h1 id="titulo">Hoja de Vida</h1>
+                    <h2 id="nombre">Samuel Rubiano Orjuela</h2>
+                </header>
+            </div>
+        </td>
         <tr>
-            <td >
+            <td class="box" id="fotoBox">
                 <img src="images/ryangosling.jpg" alt="Foto" class="foto">
             </td>
-            <td rowspan="2">
-                <h2>Informacion academica:</h2>
-                <p>
-                    Educación primaria: <br>
-                    Educación secundaria: <br> 
-                    Pregrado: <br>
-                    Postgrado: <br>
-                    Cursos: <br>
-                    Diplomados:
-                </p>
+            <td rowspan="2" class="box">
+                <div id="academicaBox">
+                    <h2 class="titleBox">Informacion academica:</h2>
+                    <p>
+                        <b>Educación primaria: </b>Liceo Campestre Thomas de Iriarte<br>
+                        <b>Educación secundaria: </b>IED Antonio Ricaurte<br>
+                        <b>Pregrado: </b>N/A<br>
+                        <b>Postgrado: </b>N/A<br>
+                        <b>Cursos: </b>N/A<br>
+                        <b>Diplomados: </b>N/A
+                    </p>
+                </div>
             </td>
-            <td rowspan="2">
-                <h2>Proyectos personales:</h2>
-
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <h2>Informacion personal:</h2>
-                <p>
-                Nombre: Samuel Rubiano <br>
-                Dirección: sssssss <br>
-                link github: sssssss <br>
-                link LinkedIn
-                </p>
+            <td rowspan="2" class="box">
+                <div id="proyectosBox">
+                    <h2 class="titleBox">Proyectos personales:</h2>
+                    <p>N/A</p>
+                    <h2 class="titleBox">Proyectos empresariales:</h2>
+                    <p>N/A</p>
+                </div>
             </td>
         </tr>
         <tr>
-            <td>
-                <img src="images/pythonLogo.png" alt="Python:">
-                <img src="images/2puntos.png" alt="dos puntos" class="dosPuntos">
-                <img src="images/estrella.png" alt="Estrella" class="estrella">
-                <img src="images/estrella.png" alt="Estrella" class="estrella">
-                <img src="images/estrella.png" alt="Estrella" class="estrella"><br>
-                <img src="images/javascriptLogo.png" alt="JavaScript:">
-                <img src="images/2puntos.png" alt="" class="dosPuntos">
-                <img src="images/estrella.png" alt="Estrella" class="estrella">
-                <img src="images/estrella.png" alt="Estrella" class="estrella"><br>
-                <img src="images/htmlLogo.png" alt="HTML:">
-                <img src="images/2puntos.png" alt="" class="dosPuntos">
-                <img src="images/estrella.png" alt="Estrella" class="estrella"><br>
-                <img src="images/cssLogo.png" alt="CSS:">
-                <img src="images/2puntos.png" alt="" class="dosPuntos">
-                <img src="images/estrella.png" alt="Estrella" class="estrella">
+            <td class="box">
+                <div id="infoBox">
+                    <h2 class="titleBox">Informacion personal:</h2>
+                    <p>
+                        <b>Nombre: </b>Samuel Rubiano<br>
+                        <b>Dirección: </b>sssssssss<br>
+                        <a href="https://github.com/samuelRubianoOrjuela" target="_blank"><b class="links">link github: </b>https://github.com/samuelRubianoOrjuela</a><br>
+                        <a href="http://www.linkedin.com/in/samuel-rubiano-350b192a5/" target="_blank"><b class="links">link LinkedIn: </b>http://www.linkedin.com/in/samuel-rubiano-350b192a5/</a><br>
+                    </p>
+                </div>
             </td>
-            <td>
-                <h2>Habilidades</h2>
-                <p>
-                    Stack Tecnologico
-                    <dl>
-                        <dt><li>Python:</li></dt>
-                        <dd>Nivel intermedio.</dd>
-                        <dt><li>JavaScript:</li></dt>
-                        <dd>Nivel basico</dd>
-                        <dt><li>HTML:</li></dt>
-                        <dd>Nivel basico</dd>
-                        <dt><li>CSS:</li></dt>
-                        <dd>Nivel basico</dd>
-                    </dl>
-                </p>
+        </tr>
+        <tr>
+            <td class="box">
+                <div id="imagesBox">
+                    <div class="bloqueLenguajes" id="python">
+                        <img src="images/pythonLogo.png" alt="Python:" class="lenguajes">
+                        <img src="images/2puntos.png" alt="dos puntos" class="dosPuntos">
+                        <img src="images/estrella.png" alt="Estrella" class="estrella">
+                        <img src="images/estrella.png" alt="Estrella" class="estrella">
+                        <img src="images/estrella.png" alt="Estrella" class="estrella">
+                    </div>
+                    <div class="bloqueLenguajes" id="javascript">
+                        <img src="images/javascriptLogo.png" alt="JavaScript:" class="lenguajes">
+                        <img src="images/2puntos.png" alt="" class="dosPuntos">
+                        <img src="images/estrella.png" alt="Estrella" class="estrella">
+                        <img src="images/estrella.png" alt="Estrella" class="estrella">
+                    </div>
+                    <div class="bloqueLenguajes" id="html">
+                        <img src="images/htmlLogo.png" alt="HTML:" class="lenguajes">
+                        <img src="images/2puntos.png" alt="" class="dosPuntos">
+                        <img src="images/estrella.png" alt="Estrella" class="estrella">
+                    </div>
+                    <div class="bloqueLenguajes" id="css">
+                        <img src="images/cssLogo.png" alt="CSS:" class="lenguajes">
+                        <img src="images/2puntos.png" alt="" class="dosPuntos">
+                        <img src="images/estrella.png" alt="Estrella" class="estrella">
+                    </div>
+                    <div class="bloqueLenguajes" id="ingles">
+                        <img src="images/traductor.png" alt="CSS:" class="lenguajes">
+                        <img src="images/2puntos.png" alt="" class="dosPuntos">
+                        <img src="images/estrella.png" alt="Estrella" class="estrella">
+                        <img src="images/estrella.png" alt="Estrella" class="estrella">
+                        <img src="images/estrella.png" alt="Estrella" class="estrella">
+                        <img src="images/estrella.png" alt="Estrella" class="estrella">
+                    </div>
+                </div>
             </td>
-            <td>sss</td>
+            <td class="box">
+                <div id="habilidadesBox">
+                    <h2 class="titleBox">Habilidades:</h2>
+                    <p>
+                        <b>Stack Tecnologico</b>
+                        <dl>
+                            <dt><li><b>Python:</b></li></dt>
+                            <dd>Nivel intermedio.</dd>
+                            <dt><li><b>JavaScript:</b></li></dt>
+                            <dd>Nivel basico.</dd>
+                            <dt><li><b>HTML:</b></li></dt>
+                            <dd>Nivel basico.</dd>
+                            <dt><li><b>CSS:</b></li></dt>
+                            <dd>Nivel basico.</dd>
+                            <dt><li><b>ingles:</b></li></dt>
+                            <dd>Nivel intermedio.</dd>
+                        </dl>
+                    </p>
+                </div>
+            </td>
+            <td class="box">
+                <div id="contactosBox">
+                    <h2 class="titleBox">Contactos:</h2>
+                    <p>
+                        <b>Nombre:</b>Samuel Rubiano Orjuela<br>
+                        <b>Correo: </b>sssss@gmail.com<br>
+                        <b>Telefono: </b>0000000000
+                    </p>
+                </div>
+            </td>
         </tr>
     </table>
 </body>

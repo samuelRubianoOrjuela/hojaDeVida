@@ -1,23 +1,79 @@
 * {
     font-family: 'rubik', sans-serif;
-    background-color: #F5EBEB;
+}
+body {
+    background-color: #D5B4B4;
+}
+header {
+    margin: auto;
+    margin-bottom: 2%;
+}
+#titulo {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+#nombre {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.titleBox {
+    font-size: 25px;
+    margin: 0px;
+}
+p {
+    font-size: 18px;
 }
 .info{
-    width: 100%;
+    width: 77%;
+    margin: auto;
 }
-tr, td {
+td {
     border: solid 1px;
     border-radius: 7px;
+    background-color: #E4D0D0;
+}
+.box {
+    padding-left: 12px;
+    padding-left: 12px;
+    padding-top: 10px;
+}
+#academicaBox {
+    margin-bottom: 40%;
+}
+#proyectosBox {
+    margin-bottom: 75%;
+}
+#contactosBox {
+    margin-bottom: 50%;
+}
+#imagesBox {
+    margin: 5px 0 0 10px;
+}
+.links{
+    color: black;
+    text-decoration: underline #E4D0D0;
 }
 .foto {
     width: 150px;
+    border-radius: 100%;
 }
-img {
-    width: 70px;
+#fotoBox {
+    background-color: #E4D0D0;
+}
+.lenguajes {
+    width: 40px;
+}
+.bloqueLenguajes {
+    margin-bottom: 15px;
+}
+#ingles {
+    width: 191px;
 }
 .estrella{
-    width: 50px;
+    width: 30px;
+    margin-bottom: 4px;
 }
 .dosPuntos {
     width: 10px;
+    margin-bottom: 4px;
 }
